@@ -10,5 +10,6 @@
 	<h1>Hello <s:property value="myModel.name" /> &nbsp; <s:property value="myModel.surname" /><br>
 		<s:property value="myModel.email" />
 	</h1>
+	
 </body>
 </html>

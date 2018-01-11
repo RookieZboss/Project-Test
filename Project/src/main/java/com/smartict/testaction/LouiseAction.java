@@ -6,14 +6,6 @@ public class LouiseAction extends ActionSupport{
 	
 	private LouiseModel myModel;
 
-	public String getNameInfo(){
-		
-		return SUCCESS;
-	}
-	
-	/**
-	 * GETTER & SETTER
-	 */
 	public LouiseModel getMyModel() {
 		return myModel;
 	}
@@ -21,5 +13,16 @@ public class LouiseAction extends ActionSupport{
 	public void setMyModel(LouiseModel myModel) {
 		this.myModel = myModel;
 	}
+
+	public String getNameInfo(){
+		LouiseModel lModel = new LouiseModel();
+		return SUCCESS;
+	}
+	
+	
+	
+	/**
+	 * GETTER & SETTER
+	 */
 
 }
