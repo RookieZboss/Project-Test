@@ -25,7 +25,7 @@
             <result name="success">/index.jsp</result>
         </action>
         
-          <action name="form-boss" class="com.smartict.testaction.TestAction" method="doSomething">
+          <action name="form-boss" class="Action.MemberAction" method="welcome">
             <result name="error">/index.jsp</result>
             <result name="success">/form_boss.jsp</result>
         </action>
